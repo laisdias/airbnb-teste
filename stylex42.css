@@ -1,0 +1,517 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Sans Pro', sans-serif;    
+}
+header{
+    display: flex;
+    justify-content: space-between; /* logo a esquerda e menua direita */;    
+    margin-bottom: -130px;
+}
+header h1{
+    background-image: url(imagens/logo.png);
+    background-repeat: no-repeat;
+    width: 38px;
+    height: 41px;
+    margin: 20px 0px 0px 90px;
+}
+header h1 span{
+    visibility: hidden;
+}
+header nav{
+    padding-left: 700px;
+}
+header nav ul {
+    margin: 0;
+    margin-top: 20px;
+}
+header ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+header ul li a{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+}
+header ul li a:hover{
+    color: #ffffff;
+    font-weight: 400;
+}
+header img{
+    width: 48px;
+    height: 48px;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+}
+header .imagem{
+    padding: 20px 150px 0px 0px;
+}
+section#topo{
+    background-image:
+        -webkit-linear-gradient(top, #a8a8b6 0%,
+            rgba(164, 171, 183, 0) 100%),
+        url(imagens/foto-fundo.png);
+    background-image:
+        linear-gradient(180deg, #a8a8b6 0%,
+            rgba(164, 171, 183, 0) 100%),
+url(imagens/foto-fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    height: 628px;
+    text-align: center;
+}
+section#topo .texto-topo{
+    padding-top: 190px;
+}
+section#topo h2{
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 400;
+}
+section#topo p{
+    color: #ffffff;
+    opacity: 0.9;
+    font-size: 22px;
+    font-weight: 400;
+}
+section#topo a.button{
+    width: 267px;
+    height: 55px;
+    background-color: #fd5c63;
+    color: #ffffff;
+    opacity: 0.9;
+    font-size: 22px;
+    font-weight: 400;
+    border: none;
+}
+section#topo .botao{
+    padding-top: 40px;
+}
+section#topo .botao{
+    padding-top: 40px;
+}
+.mask{
+    margin-top: -180px;
+    position:  absolute;
+}
+.mask img{
+    width: 1440px;
+    height: 600px;
+}
+section#fotos-fundo-video{
+    margin-top: 0px;    
+}
+section#fotos-fundo-video .columns{
+    margin: 0px 10px;
+}
+section#fotos-fundo-video #colu1{
+    margin: -80px 0px 0px 0px;
+}
+section#fotos-fundo-video #colu2{
+    margin: -100px 0px 0px 0px;
+}
+section#fotos-fundo-video #colu3{
+    margin: -60px 0px 0px 0px;
+}
+section#fotos-fundo-video #colu4{
+    margin: -20px 0px 0px 0px;
+}
+section#fotos-fundo-video #colu5{
+    margin: -80px 0px 0px 0px;
+}
+section#fotos-fundo-video #colu6{
+    margin: -60px 0px 0px 0px;
+}
+section#esp-video{
+    position: relative;
+    margin-top: -190px;
+}
+section#esp-video .texto-esp-video{
+    float: left;
+    width: 693px;
+    margin-left: 100px;
+}
+section#esp-video .texto-esp-video h2{
+    color: #4c4c51;
+    font-size: 36px;
+    font-weight: 400;
+}
+section#esp-video .texto-esp-video p{
+    color: #88939e;
+    opacity: 0.9;
+    font-size: 22px;
+    font-weight: 400;
+}
+section#esp-video .video img.grad{
+    position:  absolute;
+    opacity: 0.4;
+}
+section#numbers{
+    height: 400px;
+}
+section#numbers level{
+    align-items: center;
+}
+section#numbers{
+    height: 300px;
+    display: flex;
+}
+section#numbers .level{
+    align-items: center;
+    margin-left: 50px;
+}
+section#numbers .level .level-item{
+    padding: 50px;
+}
+section#numbers .level .level-item p.title{
+    color: #f94d59;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+}
+section#numbers .level .level-item p.heading{
+    color: #88939e;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: lowercase;    
+}
+section#numbers .level p.traco{
+    width: 35px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #dbdbdb;
+}
+section#numbers .level p.traco span{
+    visibility: hidden;
+}
+section#informacoes .angela{
+    width: 700px;
+    height: 450px;
+    border-radius: 4px;
+    background-color: #fd6e74;
+}
+section#informacoes .angela img{
+    width: 700px;
+    height: 350px;
+}
+section#informacoes .angela p{
+    width: 400px;
+    padding: 0px 0px 0px 50px;
+    color: #ffffff;
+    font-family: "Source Sans Pro";
+    font-size: 30px;
+    font-weight: 400;
+    float: left;   
+} 
+section#informacoes{
+    display: flex;
+}
+section#informacoes .angela a{
+    margin: -60px 20px 0px 0px;
+}
+section#informacoes .angela a.button{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    float: right;
+    border: none;
+}
+section#informacoes .angela small{
+    color: #fd6e74;
+    font-size: 80px;
+}
+section#informacoes .info{
+    padding: 0px 50px;
+    display: flex;
+}
+section#informacoes .info ul{
+    list-style: none;
+}
+section#informacoes .info ul li{
+    width: 352px;
+    padding: 30px 10px 60px 100px;    
+}
+section#informacoes .info ul li img{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+section#informacoes .info ul li h3{
+    color: #fb5c68;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0px 0px 0px 110px;
+    width: 200px;
+}
+section#informacoes .info ul li p{
+    color: #88939e;
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px 0px 0px 110px;
+    width: 260px;
+    line-height: 18px;
+}
+section#experience{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin: 90px 0px;
+}
+section#experience .texto-experience h2{
+    color: #606064;
+    font-family: 'Source Sans Pro';
+    font-size: 30px;
+    font-weight: 400;
+}
+section#experience .texto-experience p{
+    padding: 10px 360px;
+    color: #88939e;
+    opacity: 0.9;
+    font-family: 'Source Sans Pro';
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+section#experience select{
+    display: flex;
+    margin: auto;
+    width: 360px;
+    height: 40px;
+    border-radius: 20px 20px 0 0;
+    border: 2px solid #dbdbdb; 
+    padding: 0px 0px 0px 20px;
+}
+section#experience button{
+    width: 360px;
+    border: none;
+    height: 40px;
+    border-radius: 0 0 20px 20px;
+    background-color: #fd6e74;
+    color: #ffffff;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.9;
+    cursor: pointer;
+}
+section#final{
+    width: 100%;
+    align-items: center;
+    margin: 150px 0px;
+    display: flex;
+}
+section#final select{
+    margin: 30px;
+    width: 300px;
+    height: 50px;
+    border-radius: 2px;
+    border: 2px solid #dbdbdb;
+}
+section#final .selecoes select{
+    display: flex;
+}
+section#final .listas{
+    display: flex;
+}
+section#final ul{
+    list-style: none;   
+}
+section#final ul li.primeira-opc{
+    color: #fb5c68;
+    font-family: 'Source Sans Pro';
+    font-size: 17px;
+    font-weight: 700;
+}
+section#final ul li a{
+    color: #88939e;
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+section#final{
+    width: 100%;
+    align-items: center;
+    margin: 90px 0px;
+    display: flex;
+}
+section#final select{
+    margin: 30px;
+    width: 300px;
+    height: 50px;
+    border-radius: 2px;
+    border: 2px solid #dbdbdb;
+}
+section#final .selecoes{
+    padding: 0px 50px;
+}
+section#final .selecoes select{
+    display: flex;
+}
+section#final .listas{
+    display: flex;
+    padding: 0px 40px; 
+}
+section#final ul{
+    list-style: none;
+    padding: 0px 50px 0px 90px;
+}
+section#final ul li.primeira-opc{
+    color: #fb5c68;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    font-weight: 700;
+}
+section#final ul li a{
+    color: #88939e;
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+footer{
+    width: 90%;
+    border-top: 2px solid #e8e8e8;
+    display: inline-flex;
+    margin: 0px 60px;
+}
+footer h2{
+    background-image: url(imagens/logo-2.png);
+    background-repeat: no-repeat;
+    width: 115px;
+    height: 35px;
+    margin: 30px;
+}
+footer span{
+    visibility: hidden;
+}
+footer .terms{
+    padding: 30px 0px 0px 63%;
+    width: 100%;
+}
+footer a{
+    color: #88939e;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 10px;
+}
+
+
+@media (max-width: 600px){
+    header{
+        margin-bottom: -160px;
+    }
+    header h1{
+        margin:20px 0px 0px 20px;
+    }
+    header nav{
+        padding-left: 0px;
+    }
+    header ul{
+        display: inline-flex;
+        padding: 0px 0px 0px 100px;
+    }
+    header ul li{
+        margin: 10px;        
+    }
+    header img{
+        margin: 0px 30px;
+    }
+    .mask{
+        margin-top: -85px ;
+    }
+    .mask img{
+        width: 1100px ;
+        height: 400px ;
+    }
+    section#fotos-fundo-video{
+        margin-top: 0px;
+        width: 1200px;
+    }    
+    section#fotos-fundo-video .columns{
+        margin: 0px;
+    }
+    section#esp-video .texto-esp-video{
+    width: 400px;
+    margin-left: 90px;
+    padding: 10px;
+    text-align: center;
+    }
+    section#esp-video .video img.grad{
+    position:  absolute;
+    opacity: 0.4;
+    }
+    section#esp-video .video img{
+        width: 450px;
+        height: 250px;
+        margin: 325px 60px 40px 60px;
+        display: block;
+    }
+    section#numbers{
+        height: 650px;
+    }
+    section#numbers .level .level-item{
+        padding: 10px 170px;
+    }
+    section#numbers .level p.traco{
+        width: 0;
+        height: 0;
+    }
+    section#informacoes{
+        padding-left: 0px;
+    }
+    section#informacoes .angela img{
+        height: 300px;
+        width: 600px;
+    }
+    section#informacoes .angela{
+        height: 400px;
+        width: 600px;
+    }
+    section#informacoes .angela p{
+        font-size: 30px;
+        padding: 0px 0px 0px 50px;
+    }
+    section#informacoes .angela a.button{
+        width: 60px;
+        height: 60px;
+        margin-top:-50px;
+    }
+    section#informacoes{
+        display: block;
+    }
+    section#experience{
+        margin: 0px;
+    }
+    section#experience .texto-experience p{
+        padding: 10px 30px;
+    }
+    section#final{
+        align-items: center;
+        margin: 80px 70px;
+        display: block;
+    }
+    section#final .listas{
+        margin: -0px;
+        padding: 0px;
+    }
+    section#final ul{
+        padding: 20px 30px;   
+    }
+    footer{
+        width: 90%;
+        margin: 0px 40px;
+    }
+    footer .terms{
+        padding: 30px 0px 0px 60px;
+    }
+}
